@@ -3,6 +3,8 @@
 #+ setup, echo = F
 knitr::opts_chunk$set(dpi = 200, fig.width = 8, fig.height = 5, message = F, warning = F)
 #ezspin_pt(file_name = "model", project_directory = ".", file_folder = "munge", keep_html = F)
+#spin("model.R")
+
 
 library(tidyverse)
 library(knitr)
